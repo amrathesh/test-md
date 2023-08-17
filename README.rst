@@ -1,4 +1,7 @@
 SBBR SCT TestCase Checklist
+===========================
+
+Legend: |Test_Enabled| |Test_Partially_Enabled| |Test_Disabled|
 
 .. table::
 
@@ -43,15 +46,97 @@ SBBR SCT TestCase Checklist
   |                                             |                                             +---------------------------------------------+
   |                                             |                                             | |WaitForEvent_Func|                         |
   |                                             +---------------------------------------------+---------------------------------------------+
-  |                                             | |MemoryAllocationServicesTest|              | |TestEfiSpecVerLvl|                         |
+  |                                             | |MemoryAllocationServicesTest|              | |AllocatePages_Conf|                        |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |AllocatePages_Func|                        |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |AllocatePool_Conf|                         |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |AllocatePool_Func|                         |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |FreePages_Conf|                            |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |FreePages_Func|                            |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |GetMemoryMap_Conf|                         |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |GetMemoryMap_Func|                         |
   |                                             +---------------------------------------------+---------------------------------------------+
-  |                                             | |ProtocolHandlerServicesTest|               | |BootExcLevel|                              |
+  |                                             | |ProtocolHandlerServicesTest|               | |CloseProtocol_Conf|                        |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |CloseProtocol_Func|                        |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |ConnectController_Conf|                    |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |ConnectController_Func|                    |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |DisconnectController_Conf|                 |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |DisconnectController_Func|                 |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |HandleProtocol_Conf|                       |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |HandleProtocol_Func|                       |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |InstallMultipleProtocolInterfaces_Conf|    |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |InstallMultipleProtocolInterfaces_Func|    |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |InstallProtocolInterface_Conf|             |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |InstallProtocolInterface_Func|             |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |LocateDevicePath_Conf|                     |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |LocateDevicePath_Func|                     |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |LocateHandleBuffer_Conf|                   |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |LocateHandleBuffer_Func|                   |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |LocateHandle_Conf|                         |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |LocateHandle_Func|                         |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |LocateProtocol_Conf|                       |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |LocateProtocol_Func|                       |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |OpenProtocolInformation_Conf|              |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |OpenProtocolInformation_Func|              |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |OpenProtocol_Conf|                         |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |OpenProtocol_Func_1|                       |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |OpenProtocol_Func_2|                       |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |OpenProtocol_Func_3|                       |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |ProtocolsPerHandle_Conf|                   |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |ProtocolsPerHandle_Func|                   |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |RegisterProtocolNotify_Conf|               |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |RegisterProtocolNotify_Func|               |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |ReinstallProtocolInterface_Conf|           |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |ReinstallProtocolInterface_Func|           |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |UninstallMultipleProtocolInterfaces_Co|    |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |UninstallMultipleProtocolInterfaces_Fu|    |
+  |                                             |                                             +---------------------------------------------+
+  |                                             |                                             | |UninstallProtocolInterface_Func|           |
   |                                             +---------------------------------------------+---------------------------------------------+
-  |                                             | |ImageServicesTest|                         | |TestEfiSpecVerLvl|                         |
+  |                                             | |ImageServicesTest|                         |                                             |
   |                                             +---------------------------------------------+---------------------------------------------+
-  |                                             | |MiscBootServicesTest|                      | |BootExcLevel|                              |
+  |                                             | |MiscBootServicesTest|                      |                                             |
   |                                             +---------------------------------------------+---------------------------------------------+
-  |                                             | |SbbrBootServices|                          | |BootExcLevel|                              |
+  |                                             | |SbbrBootServices|                          |                                             |
   +---------------------------------------------+---------------------------------------------+---------------------------------------------+
   | |RuntimeServicesTest|                       |                                             |                                             |
   +---------------------------------------------+---------------------------------------------+---------------------------------------------+
@@ -104,6 +189,13 @@ SBBR SCT TestCase Checklist
 
 ..
   All alias directives here
+
+.. |Test_Enabled| image:: https://img.shields.io/badge/Test_Enabled-darkgreen
+  :height: 20
+.. |Test_Partially_Enabled| image:: https://img.shields.io/badge/Test_Partially_Enabled-orange
+  :height: 20
+.. |Test_Disabled| image:: https://img.shields.io/badge/Test_Disabled-gray
+  :height: 20
 
 
 .. |RuntimeServicesTest| image:: https://img.shields.io/badge/RuntimeServicesTest-orange
@@ -660,3 +752,6 @@ SBBR SCT TestCase Checklist
   :height: 25
 .. |Reset_Func| image:: https://img.shields.io/badge/Reset_Func-gray
   :height: 25
+.. |UninstallProtocolInterface_Func| image:: https://img.shields.io/badge/UninstallProtocolInterface_Func-darkgreen
+  :height: 25
+
