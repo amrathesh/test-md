@@ -9,8 +9,9 @@
    |                                                                                           |                                                                                           |<img src="https://img.shields.io/badge/RequiredElements-darkgreen" height="25" />                       |
    |                                                                                           |<img src="https://img.shields.io/badge/SbbrRequiredUefiProtocols-gray" height="25" />      |<img src="https://img.shields.io/badge/MediaIoProtocols-gray" height="25" />                            |
    |                                                                                           |<img src="https://img.shields.io/badge/SbbrEfiSpecVerLvl-darkgreen" height="25" />         |<img src="https://img.shields.io/badge/TestEfiSpecVerLvl-darkgreen" height="25" />                      |
-   |                                                                                           |<img src="https://img.shields.io/badge/SbbrSmbios-gray" height="25" />                     |<img src="https://img.shields.io/badge/UefiSmbios-gray" height="25" />                                  |\
-   |                                                                                           |<img src="https://img.shields.io/badge/SbbrSysEnvConfig-darkgreen" height="25" />          |
+   |                                                                                           |<img src="https://img.shields.io/badge/SbbrSmbios-gray" height="25" />                     |<img src="https://img.shields.io/badge/UefiSmbios-gray" height="25" />                                  |
+   |                                                                                           |<img src="https://img.shields.io/badge/SbbrSysEnvConfig-darkgreen" height="25" />          ||
+   | below|^      |^      |
 
  [X] EFICompliantTest                      [1  ]          │                   │
 │ [ ] SbbrRequiredUefiProtocols             [0  ]          │                   │
