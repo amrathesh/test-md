@@ -1,3 +1,9 @@
-$${\textcolor{red}textsf{abcdef}}$$
-
-$\textcolor{green}{\textsf{Should be magenta}}$ 
+- [ ] Mercury
+- [x] **Venus**
+- [x] **Earth (Orbit/Moon)**
+- [x] **Mars**
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
