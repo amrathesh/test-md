@@ -5,15 +5,16 @@
 - [x] **`Venus`**
   - [ ] Something
   - [ ] Research 
-  - [ ] Build prototype #15
+  - [ ] ABCD
   - [ ] Test run 
     - [ ] Subtest
-    - [x] `Subtest`
+    - [x] **`Subtest`**
     - [ ] Subtest
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [x] `Jupiter`
+- [x] **`Earth`**
+    - [x] **`Moon`** 
+- [x] **`Mars`**
+- [x] **`Jupiter`**
 - [ ]  Saturn
-- [x] `Uranus`
-- [x] `Neptune`
+- [x] **`Uranus`**
+- [x] **`Neptune`**
 
