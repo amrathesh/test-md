@@ -1,14 +1,14 @@
-## SBBR SCT Testlist
+## BBR ACS UEFI-SCT Test-list for SBBR Recipe
 
-#### Legend 
-Enabled:✅
-Partially Enabled:🔲
-Disabled:❌
+#### Legend
+Enabled:✅ <br>
+Partially Enabled:🔲 <br>
+Disabled:❌ <br>
 
 <table border="1">
 <tr>
-<th rowspan=1 colspan=1>Suite</th>
-<th rowspan=1 colspan=1>Subsuite/Test</th>
+<th rowspan=1 colspan=1>Test Suite</th>
+<th rowspan=1 colspan=1>Sub Test Suite</th>
 <th rowspan=1 colspan=1>Testcase</th>
 </tr>
 <tr>
@@ -370,10 +370,12 @@ Disabled:❌
 </tr>
 <tr>
 <td rowspan=2 colspan=1>✅ LoadedImageProtocolTest</td>
-<td rowspan=1 colspan=2>✅ LoadedImageProtocolTest1</td>
+<td rowspan=1 colspan=1>✅ LoadedImageProtocolTest1</td>
+<td rowspan=1 colspan=1>✅ LoadedImageProtocolTest1</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>✅ LoadedImageProtocolTest2</td>
+<td rowspan=1 colspan=1>✅ LoadedImageProtocolTest2</td>
+<td rowspan=1 colspan=1>✅ LoadedImageProtocolTest2</td>
 </tr>
 <tr>
 <td rowspan=27 colspan=1>✅ DevicePathProcotols</td>
@@ -460,16 +462,20 @@ Disabled:❌
 </tr>
 <tr>
 <td rowspan=4 colspan=1>✅ ACPITableProtocolTest</td>
-<td rowspan=1 colspan=2>✅ InstallAcpiTableConformance</td>
+<td rowspan=1 colspan=1>✅ InstallAcpiTableConformance</td>
+<td rowspan=1 colspan=1>✅ InstallAcpiTableConformance</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>✅ InstallAcpiTableFunction</td>
+<td rowspan=1 colspan=1>✅ InstallAcpiTableFunction</td>
+<td rowspan=1 colspan=1>✅ InstallAcpiTableFunction</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>✅ UninstallAcpiTableConformance</td>
+<td rowspan=1 colspan=1>✅ UninstallAcpiTableConformance</td>
+<td rowspan=1 colspan=1>✅ UninstallAcpiTableConformance</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>✅ UninstallAcpiTableFunction</td>
+<td rowspan=1 colspan=1>✅ UninstallAcpiTableFunction</td>
+<td rowspan=1 colspan=1>✅ UninstallAcpiTableFunction</td>
 </tr>
 <tr>
 <td rowspan=28 colspan=1>🔲 DriverModelTest</td>
@@ -1535,26 +1541,33 @@ Disabled:❌
 </tr>
 <tr>
 <td rowspan=3 colspan=1>❌ TimeStampProtocolTest</td>
-<td rowspan=1 colspan=2>❌ GetPropertiesConformanceAuto</td>
+<td rowspan=1 colspan=1>❌ GetPropertiesConformanceAuto</td>
+<td rowspan=1 colspan=1>❌ GetPropertiesConformanceAuto</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>❌ GetPropertiesFunctionAuto</td>
+<td rowspan=1 colspan=1>❌ GetPropertiesFunctionAuto</td>
+<td rowspan=1 colspan=1>❌ GetPropertiesFunctionAuto</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>❌ GetTimestampFunctionAuto</td>
+<td rowspan=1 colspan=1>❌ GetTimestampFunctionAuto</td>
+<td rowspan=1 colspan=1>❌ GetTimestampFunctionAuto</td>
 </tr>
 <tr>
 <td rowspan=4 colspan=1>❌ ResetNotificationProtocolTest</td>
-<td rowspan=1 colspan=2>❌ RegisterResetNotifyConformance</td>
+<td rowspan=1 colspan=1>❌ RegisterResetNotifyConformance</td>
+<td rowspan=1 colspan=1>❌ RegisterResetNotifyConformance</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>❌ RegisterResetNotifyFunction</td>
+<td rowspan=1 colspan=1>❌ RegisterResetNotifyFunction</td>
+<td rowspan=1 colspan=1>❌ RegisterResetNotifyFunction</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>❌ UnregisterResetNotifyConformance</td>
+<td rowspan=1 colspan=1>❌ UnregisterResetNotifyConformance</td>
+<td rowspan=1 colspan=1>❌ UnregisterResetNotifyConformance</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>❌ UnregisterResetNotifyFunction</td>
+<td rowspan=1 colspan=1>❌ UnregisterResetNotifyFunction</td>
+<td rowspan=1 colspan=1>❌ UnregisterResetNotifyFunction</td>
 </tr>
 <tr>
 <td rowspan=16 colspan=1>🔲 SecureTechTest</td>
@@ -1888,16 +1901,20 @@ Disabled:❌
 </tr>
 <tr>
 <td rowspan=4 colspan=1>❌ TCG2ProtocolTest</td>
-<td rowspan=1 colspan=2>❌ GetActivePcrBanks_Conf</td>
+<td rowspan=1 colspan=1>❌ GetActivePcrBanks_Conf</td>
+<td rowspan=1 colspan=1>❌ GetActivePcrBanks_Conf</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>❌ GetCapability_Conf</td>
+<td rowspan=1 colspan=1>❌ GetCapability_Conf</td>
+<td rowspan=1 colspan=1>❌ GetCapability_Conf</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>❌ HashLogExtendEvent_Conf</td>
+<td rowspan=1 colspan=1>❌ HashLogExtendEvent_Conf</td>
+<td rowspan=1 colspan=1>❌ HashLogExtendEvent_Conf</td>
 </tr>
 <tr>
-<td rowspan=1 colspan=2>❌ SubmitCommand_Conf</td>
+<td rowspan=1 colspan=1>❌ SubmitCommand_Conf</td>
+<td rowspan=1 colspan=1>❌ SubmitCommand_Conf</td>
 </tr>
 </tr>
 </table>
