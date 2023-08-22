@@ -7,6 +7,11 @@ Disabled:❌
 
 <table border="1">
 <tr>
+<th rowspan=1 colspan=1>Suite</th>
+<th rowspan=1 colspan=1>Subsuite/Test</th>
+<th rowspan=1 colspan=1>Testcase</th>
+</tr>
+<tr>
 <td rowspan=5 colspan=1>✅ GenericTest</td>
 <td rowspan=2 colspan=1>✅ EFICompliantTest</td>
 <td rowspan=1 colspan=1>✅ PlatformSpecificElements</td>
